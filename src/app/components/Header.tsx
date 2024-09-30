@@ -3,7 +3,7 @@ import React from 'react'
 import Link from 'next/link'
 const Header = () => {
   return (
-    <div> 
+    <div className='flex gap-8 bg-sky-200'>
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
         <Link href="/address">Address</Link>
